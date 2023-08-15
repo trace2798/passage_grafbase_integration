@@ -37,8 +37,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
         <div className="w-full flex justify-between">
           <Link href="/">
             <div className="inline-flex items-center hover:cursor-pointer mt-1 ">
-              <Icons.Milestone className="mr-2" />
-              <h1 className="font-satoshiBlack text-xl">Post iT</h1>
+              <h1 className="font-semibold text-xl">Grafbase x Passage</h1>
             </div>
           </Link>
           <div className="inline-flex items-center">
@@ -68,8 +67,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
           <div className="w-full flex justify-between">
             <Link href="/">
               <div className="inline-flex items-center hover:cursor-pointer mt-1">
-                <Icons.Milestone className="mr-2" />
-                <h1 className="font-satoshiBlack text-xl">Post iT</h1>
+                <h1 className="font-semibold text-xl">Grafbase x Passage</h1>
               </div>
             </Link>
             <div className="inline-flex items-center">
@@ -91,13 +89,12 @@ const Navbar: FC<NavbarProps> = ({}) => {
             <div className="w-full flex justify-between ">
               <Link href="/">
                 <div className="inline-flex items-center hover:cursor-pointer mt-1">
-                  <Icons.Milestone className="mr-2" />
-                  <h1 className="font-satoshiBlack text-xl">Post iT</h1>
+                  <h1 className="font-semibold text-xl">Grafbase x Passage</h1>
                 </div>
               </Link>
               <div className="inline-flex items-center">
                 <a
-                  href="https://github.com/trace2798/passage_fullstack"
+                  href="https://github.com/trace2798/passage_grafbase_integration"
                   target="_blank"
                   aria-label="github repo link"
                 >
