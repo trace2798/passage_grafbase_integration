@@ -63,15 +63,6 @@ export function UserAccountNav({ email }: UserAccountNavProps) {
         </div>
         <DropdownMenuSeparator />
         <DropdownMenuItem asChild>
-          <Link href="/discover">Discover</Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild>
-          <Link href="/create">Create Post</Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild>
-          <Link href="/dashboard">Dashboard</Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild>
           <Link href="/settings">Settings</Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
